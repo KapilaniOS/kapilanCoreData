@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     func saveRecord(){
         
         let context = getContext()
-        let entity = NSEntityDescription.entity(forEntityName: "Save", in:context)
+        let entity = NSEntityDescription.entity(forEntityName: "RegisterUser", in:context)
         let newUser = NSManagedObject(entity: entity!, insertInto: context)
         
         newUser.setValue(unametxt.text, forKey: "username")

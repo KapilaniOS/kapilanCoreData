@@ -15,6 +15,7 @@
 		E8458779228A784C00A51DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8458777228A784C00A51DD8 /* LaunchScreen.storyboard */; };
 		E873F1F52293B942003B61D0 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E873F1F42293B942003B61D0 /* DisplayViewController.swift */; };
 		E873F1F72293BD62003B61D0 /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E873F1F62293BD62003B61D0 /* DisplayTableViewCell.swift */; };
+		E883717322A62F14000553B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883717222A62F14000553B4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E845877A228A784C00A51DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E873F1F42293B942003B61D0 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		E873F1F62293BD62003B61D0 /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		E883717222A62F14000553B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E8458772228A784100A51DD8 /* kapilanCoreData.xcdatamodeld */,
 				E873F1F42293B942003B61D0 /* DisplayViewController.swift */,
 				E873F1F62293BD62003B61D0 /* DisplayTableViewCell.swift */,
+				E883717222A62F14000553B4 /* LoginViewController.swift */,
 			);
 			path = kapilanCoreData;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E883717322A62F14000553B4 /* LoginViewController.swift in Sources */,
 				E845876E228A784100A51DD8 /* ViewController.swift in Sources */,
 				E845876C228A784100A51DD8 /* AppDelegate.swift in Sources */,
 				E8458774228A784100A51DD8 /* kapilanCoreData.xcdatamodeld in Sources */,

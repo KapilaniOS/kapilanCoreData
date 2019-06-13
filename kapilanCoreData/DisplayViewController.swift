@@ -36,7 +36,7 @@ class DisplayViewController: UIViewController, UITableViewDelegate, UITableViewD
     func fetchRecord()
     {
         let context = getContext()
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Save")
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "RegisterUser")
         
         do{
             
@@ -90,6 +90,5 @@ class DisplayViewController: UIViewController, UITableViewDelegate, UITableViewD
                 print(error)
             }
         }
-        
     }
 }
